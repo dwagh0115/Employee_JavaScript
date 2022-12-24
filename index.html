@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Employee Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+  </style>
+  
+</head>
+<body>
+  <div id="signup">
+    <P class="heading"> Filter UI cards via their profession</P>
+    <br>
+    <select name="dropdown" id="dropdown">
+        <option disabled selected value="profession">Profession</option>
+        <option value="developer">Developer</option>
+        <option value="admin">Admin</option>
+    </select> <br>
+   
+    <br>
+    <div id="result"></div>
+
+    <br>
+    <button id="filterBtn">Filter</button>
+  </div>
+  <div class="task2">
+    <p class="heading"> Add a new User </p>
+    <form>
+      <div class="input1">
+      <label for="fname">Enter name</label>
+      <br>
+      <br>
+      <input type="text" id="fn" name="fname"><br><br>
+    </div>
+    <div class="input2">
+      <label for="profession">Enter Profession</label>
+      <br>
+      <br>
+      <input type="text" id="profession" name="profession"><br><br>
+    </div>
+    <div class="input3">
+      <label for="age">Enter Age</label>
+      <br>
+      <br>
+      <input type="text" id="age" name="age"><br><br>
+    </div>
+    </form>
+    <button id="add"> Add User </button>
+  </div>
+  <div id="list">
+
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
